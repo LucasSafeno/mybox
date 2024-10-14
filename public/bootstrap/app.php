@@ -1,13 +1,11 @@
-<?php 
+<?php
 
-use core\class\Router;
+use core\Router;
 
 $router = new Router;
 
-$router->get("/", "LoginController", "index");
+$router->get("/", "HomeController@index");
 
-$router->resolve();
-
-
+$router->run();
 
 ?>
