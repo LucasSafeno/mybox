@@ -1,0 +1,21 @@
+{
+    "name": "safeno/mybox",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "core\\": "core"
+        },
+        "files": [
+            "app/helpers/constants.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Lucas Safeno",
+            "email": "lugnorio@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^7.1"
+    }
+}
